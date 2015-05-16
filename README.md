@@ -1,11 +1,11 @@
-# Phoenix Colorscheme for Vim
+# Phoenix Color Scheme for Vim
 
-Monochrome Vim colorscheme based on [Phoenix](https://github.com/netatoo/phoenix-theme).
+Monochrome Vim color scheme based on [Phoenix](https://github.com/netatoo/phoenix-theme).
 
 ## A Couple of Notes
 
 - Might be slightly different from the original
-- Terminal is not supported yet
+- Terminal colors are much different and simplified
 - Not entirely monochrome for improved usability (e.g. errors are red, diffs are green, yellow and red)
 - Available colors: Blue (default), Red, Green, Yellow, Orange, Purple (not pink)
 - Pull requests welcome
