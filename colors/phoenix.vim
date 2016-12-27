@@ -39,6 +39,7 @@ endif
 " Invisibles                  #6A6A6A
 " Comments                    #555555
 " CursorLine                  #292929
+" CursorLine (Eighties)       #111111
 " Selection                   #515151
 " Variables                   #787878
 " Operator                    #AAAAAA
@@ -211,6 +212,10 @@ hi Search                     guifg=#EFEFEF guibg=#40BDFF gui=NONE      ctermfg=
 hi Error                      guifg=#FF3D23 guibg=NONE    gui=bold      ctermfg=009   ctermbg=NONE
 hi Todo                       guifg=#DEDD5A guibg=NONE    gui=bold      ctermfg=226   ctermbg=NONE
 
+if s:background == "eighties"
+  hi CursorLine               guifg=NONE    guibg=#111111 gui=NONE      ctermfg=NONE  ctermbg=008     cterm=NONE
+endif
+
 if s:accent == "red"
   hi IncSearch                guifg=#EFEFEF guibg=#C5282F gui=NONE      ctermfg=255   ctermbg=001
   hi MatchParen               guifg=#191919 guibg=#FF3D23 gui=NONE      ctermfg=235   ctermbg=001
@@ -277,7 +282,8 @@ hi WildMenu                   guifg=#191919 guibg=#40BDFF gui=NONE      ctermfg=
 hi OverLength                 guifg=NONE    guibg=#20272F gui=NONE      ctermfg=NONE  ctermbg=018
 
 if s:background == "eighties"
-  hi LineNr                   ctermbg=232
+  hi CursorLineNr             guifg=#CCCCCC guibg=#111111 gui=bold      ctermfg=255   ctermbg=NONE    cterm=bold
+  hi LineNr                   guifg=#6A6A6A guibg=#2D2D2D gui=NONE      ctermfg=245   ctermbg=232
 endif
 
 if s:accent == "red"
