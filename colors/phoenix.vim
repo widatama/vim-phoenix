@@ -269,20 +269,20 @@ hi Pmenu                      guifg=#EFEFEF guibg=#191919 gui=NONE      ctermfg=
 hi PmenuSel                   guifg=#EFEFEF guibg=#40BDFF gui=NONE      ctermfg=255   ctermbg=039
 hi PmenuThumb                 guifg=#EFEFEF guibg=#40BDFF gui=NONE      ctermfg=255   ctermbg=039
 hi StatusLine                 guifg=#CCCCCC guibg=NONE    gui=NONE      ctermfg=250   ctermbg=NONE
-hi StatusLineNC               guifg=#CCCCCC guibg=NONE    gui=NONE      ctermfg=250   ctermbg=NONE
-hi CursorLineNr               guifg=#CCCCCC guibg=#292929 gui=bold      ctermfg=255   ctermbg=NONE    cterm=bold
+hi StatusLineNC               guifg=#555555 guibg=NONE    gui=NONE      ctermfg=250   ctermbg=NONE
+hi CursorLineNr               guifg=#DDDDDD guibg=#191919 gui=bold      ctermfg=255   ctermbg=NONE    cterm=bold
 hi TabLine                    guifg=#CCCCCC guibg=NONE    gui=NONE      ctermfg=250   ctermbg=NONE    cterm=NONE
 hi TabLineFill                guifg=#CCCCCC guibg=NONE    gui=NONE      ctermfg=250   ctermbg=NONE    cterm=NONE
 hi FoldColumn                 guifg=#191919 guibg=#40BDFF gui=NONE      ctermfg=235   ctermbg=039
 hi Folded                     guifg=#191919 guibg=#40BDFF gui=NONE      ctermfg=235   ctermbg=039
-hi LineNr                     guifg=#6A6A6A guibg=#0F0F0F gui=NONE      ctermfg=245   ctermbg=000
+hi LineNr                     guifg=#6A6A6A guibg=#191919 gui=NONE      ctermfg=245   ctermbg=000
 hi SignColumn                 guifg=#EFEFEF guibg=NONE    gui=NONE      ctermfg=255   ctermbg=NONE
-hi VertSplit                  guifg=#AAAAAA guibg=NONE    gui=NONE      ctermfg=246   ctermbg=000
+hi VertSplit                  guifg=#555555 guibg=NONE    gui=NONE      ctermfg=246   ctermbg=000
 hi WildMenu                   guifg=#191919 guibg=#40BDFF gui=NONE      ctermfg=235   ctermbg=039
 hi OverLength                 guifg=NONE    guibg=#20272F gui=NONE      ctermfg=NONE  ctermbg=018
 
 if s:background == "eighties"
-  hi CursorLineNr             guifg=#CCCCCC guibg=#111111 gui=bold      ctermfg=255   ctermbg=NONE    cterm=bold
+  hi CursorLineNr             guifg=#CCCCCC guibg=#2D2D2D gui=bold      ctermfg=255   ctermbg=NONE    cterm=bold
   hi LineNr                   guifg=#6A6A6A guibg=#2D2D2D gui=NONE      ctermfg=245   ctermbg=232
 endif
 
