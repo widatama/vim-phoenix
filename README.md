@@ -14,16 +14,20 @@ Monochrome Vim color scheme based on [Phoenix](https://github.com/netatoo/phoeni
 
 ### Manual
 
-1.  Copy `phoenix.vim` into your `.vim/colors` directory.
+1.  Copy `phoenix.vim` into `.vim/colors` directory.
+
+### With Package Manager
+
+1.  Copy `vim-phoenix` directory into `.vim/pack/*/start` directory
 
 ### Pathogen
 
 1.  Install [Pathogen](https://github.com/tpope/vim-pathogen)
-2.  Copy `vim-phoenix` directory into your `.vim/bundle` directory.
+2.  Copy `vim-phoenix` directory into `.vim/bundle` directory.
 
-### Modify .vimrc
+### Modify `.vimrc`
 
-Set the colorscheme in your .vimrc, this will set Phoenix Blue by default
+Set `colorscheme` in `.vimrc`, this will set Phoenix Blue by default
 
     colorscheme phoenix
 
