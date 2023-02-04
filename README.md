@@ -41,11 +41,20 @@ To set eighties background
     colorscheme phoenix
     PhoenixBlueEighties
 
+Invert parentheses highlight color
+
+    colorscheme phoenix
+    let g:phoenix_invert_match_paren = 1
+
 ## Screenshots
 
 ![Phoenix Blue Screenshot](screenshots/phoenix-blue.png)
 ![Phoenix Red Screenshot](screenshots/phoenix-red.png)
 ![Phoenix Yellow Screenshot](screenshots/phoenix-yellow.png)
+
+| Parentheses highlight | Parentheses highlight inverted |
+| --- | --- |
+| ![Paren match](screenshots/match_paren.png) | ![Paren match inverted](screenshots/match_paren_invert.png) |
 
 ## License
 
