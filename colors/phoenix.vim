@@ -428,8 +428,8 @@ hi link                       markdownFencedCodeBlock     PreProc
 hi link                       markdownCodeBlock           PreProc
 
 
-let g:phoenix_acc = ""
-let g:phoenix_bg = ""
+let g:phoenix_acc = "orange"
+let g:phoenix_bg = "normal"
 let g:phoenix_invert_match_paren = 0
 
 function! SetPhoenix(background, accent)
