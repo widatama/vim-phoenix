@@ -19,13 +19,13 @@ let g:colors_name = 'phoenix'
 if exists("g:phoenix_acc")
   let s:accent = g:phoenix_acc
 else
-  let s:accent = ""
+  let s:accent = "orange"
 endif
 
 if exists("g:phoenix_bg")
   let s:background = g:phoenix_bg
 else
-  let s:background = ""
+  let s:background = "normal"
 endif
 
 if exists("g:phoenix_invert_match_paren")
@@ -428,8 +428,8 @@ hi link                       markdownFencedCodeBlock     PreProc
 hi link                       markdownCodeBlock           PreProc
 
 
-let g:phoenix_acc = "orange"
-let g:phoenix_bg = "normal"
+let g:phoenix_acc = ""
+let g:phoenix_bg = ""
 let g:phoenix_invert_match_paren = 0
 
 function! SetPhoenix(background, accent)
