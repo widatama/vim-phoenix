@@ -433,12 +433,12 @@ let g:phoenix_bg = "normal"
 let g:phoenix_invert_match_paren = 0
 
 function! SetPhoenix(background, accent)
-  " let g:phoenix_bg = a:background
-  " let g:phoenix_acc = a:accent
-  let g:phoenix_bg = "normal"
-  let g:phoenix_acc = "orange"
+  let g:phoenix_bg = a:background
+  let g:phoenix_acc = a:accent
 endfunction
 
+command! PhoenixOrange call SetPhoenix("normal", "orange")
+            \ | colorscheme phoenix
 command! PhoenixBlue call SetPhoenix("normal", "blue")
             \ | colorscheme phoenix
 command! PhoenixRed call SetPhoenix("normal", "red")
@@ -446,8 +446,6 @@ command! PhoenixRed call SetPhoenix("normal", "red")
 command! PhoenixGreen call SetPhoenix("normal", "green")
             \ | colorscheme phoenix
 command! PhoenixYellow call SetPhoenix("normal", "yellow")
-            \ | colorscheme phoenix
-command! PhoenixOrange call SetPhoenix("normal", "orange")
             \ | colorscheme phoenix
 command! PhoenixPurple call SetPhoenix("normal", "purple")
             \ | colorscheme phoenix
