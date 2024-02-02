@@ -1,7 +1,5 @@
 " ############################################################################
 " Name:       Phoenix color scheme
-" Maintainer: Danu Widatama <widatama@gmail.com>
-" License:    MIT
 " ############################################################################
 
 
@@ -34,86 +32,32 @@ else
   let s:invert_match_paren = 0
 endif
 
-
-" ============================================================================
-" Colors
-" ----------------------------------------------------------------------------
-
-" Background                  #191919
-" Background (Eighties)       #2D2D2D
-" Foreground                  #CCCCCC
-" Invisibles                  #6A6A6A
-" Comments                    #555555
-" CursorLine                  #292929
-" CursorLine (Eighties)       #111111
-" Selection                   #515151
-" Variables                   #787878
-" Operator                    #AAAAAA
-" Function                    #EFEFEF
-" Class                       #DDDDDD
-
-
-" Blue Prime                  #40BDFF
-" Blue Secondary              #5697B8
-" Blue Tertiary               #64B2DB
-
-
-" Red Prime                   #FF3D23
-" Red Secondary               #C04B43
-" Red Tertiary                #C5282F
-
-
-" Yellow Prime                #DEDD5A
-" Yellow Secondary            #91812B
-" Yellow Tertiary             #C3BA4D
-
-
-" Green Prime                 #87BF19
-" Green Secondary             #9FB785
-" Green Tertiary              #65910F
-
-
-" Orange Prime                #C88623
-" Orange Secondary            #B58913
-" Orange Tertiary             #FBBE1C
-
-
-" Purple Prime                #B294BB
-" Purple Secondary            #A582A3
-" Purple Tertiary             #D1AFDD
-
-
-
-
-
-
 " ============================================================================
 " Text Markup
 " ----------------------------------------------------------------------------
-
+hi Constant                   guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
+hi Directory                  guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
+hi Type                       guifg=#aaa4a4 guibg=NONE    gui=NONE      ctermfg=208
+hi SpecialKey                 guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
+hi Conditional                guifg=#FBBE1C guibg=NONE    gui=NONE      ctermfg=208
+hi Exception                  guifg=#FBBE1C guibg=NONE    gui=NONE      ctermfg=208
+hi Label                      guifg=#FBBE1C guibg=NONE    gui=NONE      ctermfg=208
+hi Repeat                     guifg=#FBBE1C guibg=NONE    gui=NONE      ctermfg=208
+hi Keyword                    guifg=#FBBE1C guibg=NONE    gui=NONE      ctermfg=208
+hi String                     guifg=#B58913 guibg=NONE    gui=NONE      ctermfg=208
+hi Character                  guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
+hi Boolean                    guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
+hi Number                     guifg=#C88623 guibg=NONE    gui=NONE      ctermfg=208
 hi Normal                     guifg=#CCCCCC guibg=#191919 gui=NONE      ctermfg=250
 hi NonText                    guifg=#6A6A6A guibg=NONE    gui=NONE      ctermfg=008
 hi Comment                    guifg=#555555 guibg=NONE    gui=NONE      ctermfg=243
-hi Constant                   guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
-hi Directory                  guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
 hi Identifier                 guifg=#787878 guibg=NONE    gui=NONE      ctermfg=246
 hi PreProc                    guifg=#787878 guibg=NONE    gui=NONE      ctermfg=246
-hi Special                    guifg=#EFEFEF guibg=NONE    gui=NONE      ctermfg=255
+hi Special                    guifg=#AAA4A4 guibg=NONE    gui=NONE      ctermfg=255
 hi Statement                  guifg=#CCCCCC guibg=NONE    gui=NONE      ctermfg=250
 hi Title                      guifg=#CCCCCC guibg=NONE    gui=bold      ctermfg=250
-hi Type                       guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
-hi SpecialKey                 guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
-hi Conditional                guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
 hi Operator                   guifg=#AAAAAA guibg=NONE    gui=NONE      ctermfg=246
-hi Exception                  guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
-hi Label                      guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
-hi Repeat                     guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
-hi Keyword                    guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039
-hi String                     guifg=#5697B8 guibg=NONE    gui=NONE      ctermfg=039
-hi Character                  guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
-hi Boolean                    guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
-hi Number                     guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
-hi Function                   guifg=#EFEFEF guibg=NONE    gui=NONE      ctermfg=255
+hi Function                   guifg=#AAA4A4 guibg=NONE    gui=NONE      ctermfg=255
 hi Underlined                 guifg=#CCCCCC guibg=NONE    gui=underline ctermfg=250
 
 if s:background == "eighties"
@@ -277,7 +221,7 @@ endif
 " ----------------------------------------------------------------------------
 
 hi Question                   guifg=#64B2DB guibg=NONE    gui=NONE      ctermfg=039   ctermbg=NONE
-hi ErrorMsg                   guifg=#FF3D23 guibg=NONE    gui=bold      ctermfg=009   ctermbg=NONE    cterm=bold
+hi ErrorMsg                   guifg=#ea4920 guibg=NONE    gui=bold      ctermfg=009   ctermbg=NONE    cterm=bold
 hi MoreMsg                    guifg=#87BF19 guibg=NONE    gui=NONE      ctermfg=002   ctermbg=NONE
 hi WarningMsg                 guifg=#DEDD5A guibg=NONE    gui=NONE      ctermfg=226   ctermbg=NONE
 
